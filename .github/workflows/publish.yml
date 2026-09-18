@@ -16,13 +16,13 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render
-        uses: quarto-dev/quarto-actions/render@v2
+      - name: Render CV
+        run: quarto render
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
