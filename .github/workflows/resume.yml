@@ -37,7 +37,7 @@ jobs:
       - name: Generate Markdown
         run: |
           cd assets
-          resume export resume_pt.md --format md --theme even
+          resume export resume_pt.md --format md --theme even --resume resume_pt.json
 
       # 3. Enviar os arquivos gerados de volta para o repositório
       - name: Commit outputs
