@@ -1,3 +1,10 @@
+---
+title: "Marcelo Galvão"
+format:
+  html:
+    css: cv.css
+---
+
 # Marcelo L. Galvão
 
 **Cientista da Computação | Engenheiro de Software | GeoAI & Sistemas Geoespaciais | PhD em Geoinformática**
